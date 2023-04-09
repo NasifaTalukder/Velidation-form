@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Container {
+    width: 1140px;
+    margin: auto;
+}
+.mainForm{
+    height: 900px;    
+    width: 100%;
+}
+
+.formDesign {
+    width: 850px;
+    height: 650px;
+    background: rgb(105, 6, 67);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 12px 4px rgb(140, 129, 129);
+    margin-top: 100px;
+}
+
+.img img {
+    width: 400px;
+    height: 650px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.img{
+    width: 47%;
+}
+.form{
+    width:53%;
+}
+.formCont{
+    width: 385px;
+    margin: auto;
+}
+.heading h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-top: 30px;
+    text-align:center;
+}
+label.nameLabel {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+input.name {
+    margin-left: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px 152px 7px 12px;
+    outline: none;
+}
+label.Birthdate{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+input.date{
+    margin-left: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px 206px 7px 12px;
+    outline: none;
+}
+label.genderHead{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+label.genderLabel {
+    margin-left: 6px;
+    color: #fff;
+}
+input.gender {
+    margin-left: 30px;
+}
+label.emailLabel{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+input.email{
+    margin-left: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px 152px 7px 12px;
+    outline: none;
+}
+label.passLabel{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+input.pass{
+    margin-left: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px 152px 7px 12px;
+    outline: none;
+}
+label.phoneLabel{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+input.phone{
+    margin-left: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 7px 152px 7px 12px;
+    outline: none;
+}
+input.subBtn {
+    margin-left: 30px;
+    font-size: 18px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 18px;
+    border: 1px solid black;
+    background: rgb(6, 102, 137);
+    color: #fff;
+}
+.formF{
+    margin-top: 20px;
+}
+input.subBtn:hover{
+    background: green;
+}
